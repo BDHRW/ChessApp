@@ -38,4 +38,4 @@ Install what we need (Make sure you are in your virtualenv)
 
 `$ pip install django`
 
-WIP - Quick write up to make sure this project is destroyed earlier on. Will add Django info next
+WIP - Quick write up to make sure this project isn't destroyed earlier on. Will add Django info next
