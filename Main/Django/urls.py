@@ -24,4 +24,6 @@ urlpatterns = [
     url(r'accounts/login/$', auth_view.login, name="login"),
     url(r'accounts/logout/$', auth_view.logout, {"next_page": reverse_lazy('login')}, name="logout"),
     url(r'register/', RegisterView.as_view(), name="register"),
+    #chess app
+    url(r'^chess/', include('Chess.urls', namespace="chess")),
 ]
